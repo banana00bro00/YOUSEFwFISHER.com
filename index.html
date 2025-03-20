@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUSEFwFISHER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="home"><a href="/index.html" class="navbar-item">HOME</a></li>
+                <li><a href="#" class="navbar-item">ABOUT</a></li>
+                <li><a href="#" class="navbar-item">SERVICES</a></li>
+                <li><a href="#" class="navbar-item">CONTACT US</a></li>
+                <li><a href="/login.html" class="navbar-item">LOGIN </a></li>
+                <center>
+                    <button class="night-mode-btn" onclick="toggleNightMode()">Toggle Night Mode</button>
+                </center>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="body">
+        <div class="YOUSEFwFISHER">
+            <h1>Welcome to YOUSEFwFISHER</h1>
+            <p class="intro-text">
+                I am a programmer passionate about creating innovative web solutions. 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                autem quidem rem error sint tempore earum? Cupiditate, expedita saepe.
+            </p>
+            <a href="#" class="more-info">More info</a>
+        </div>
+        
+        <hr class="separator">
+
+        <div class="art_section">
+            <center>
+                <p class="section-title">Arts</p>
+                <div class="art-container">
+                    <img src="./img/IMG-20240612-WA0003.jpg" alt="Art 1">
+                    <img src="./img/IMG-20240612-WA0004.jpg" alt="Art 2">
+                    <img src="./img/IMG-20240612-WA0005.jpg" alt="Art 3">
+                    <img src="./img/IMG-20240612-WA0006.jpg" alt="Art 4">
+                    <img src="./img/IMG-20240612-WA0007.jpg" alt="Art 5">
+                    <img src="./img/IMG-20240612-WA0012.jpg" alt="Art 6">
+                </div>
+            </center>
+        </div>
+<center>
+    <div class="course">
+        <h3 class="section-title">Course Section</h3>
+        <div class="video-container">
+            <details>
+                <video controls>
+                    <source src="/vidio_control/كورس جافاسكريبت JavaScript_Node.js (Arabic) - _6 Conditions(240P)(360P).mp4" type="video/mp4">
+                    
+                </video>
+            </details>
+          
+        </div>
+    </div>
+</div>
+</center>
+        
+    <script>
+        // Function to toggle night mode
+        function toggleNightMode() {
+            document.body.classList.toggle('night-mode');
+        }
+    </script>
+</body>
+</html>
